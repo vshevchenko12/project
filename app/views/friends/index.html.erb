@@ -2,11 +2,13 @@
 <br>
 <div id="friends">
   <% @friends.each do |friend| %>
-    <%= render friend %>
-    <p>
-      <%= link_to "Show", friend, class:'btn btn-info'
+    <% if friend.user == current_user %>
+      <%= render friend %>
+      <p>
+        <%= link_to "Show", friend, class:'btn btn-info'
  %>
-    </p>
+      </p>
+    <% end %>
     <hr>
   <% end %>
 </div>
