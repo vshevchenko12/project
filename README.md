@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Friends App on Ruby on Rails based on [Learn Ruby on Rails - Full Course](https://www.youtube.com/watch?v=fmyvWz5TUWg&t=3031s).
 
-Things you may want to cover:
+- Ruby version - 3.2.2
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby 0n Rails version - 7.0.4.3
